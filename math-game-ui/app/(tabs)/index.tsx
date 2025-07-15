@@ -47,7 +47,7 @@ export default function HomeScreen() {
   );
 }
 
-// 🧠 Mocked module data — eventually replace `path` with actual screen routes
+// Mocked module data transferring to postgresql DB and late deploying to cloud enviroment
 const modules = [
   { title: '➕ Module 1: Addition', path: '/modules/add', color: '#FCD5CE' },
   { title: '➖ Module 2: Subtraction', path: '/modules/sub', color: '#D0F4DE' },
